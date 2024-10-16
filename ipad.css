@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  nav a{
+    border: none;
+    border-bottom: 2px #28567a dotted;
+    width: 100%;
+  }
+
+  .menu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .articulo{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .articulo article{
+    width: 100%;
+    order: 1;
+  }
+
+  .articulo article h1{
+    text-align: center;
+}
+
+.articulo article h2{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.articulo figure{
+    width: 100%;
+    order: 0;
+}
+}

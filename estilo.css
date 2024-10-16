@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header figure{
+    width: 300px;
+    margin-left: 15px;
+}
+
+header figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-sandwich{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    border-radius: 5px;
+    width: 35px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #28567a;
+    display: none;
+}
+
+.menu i{
+    color: white;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px #28567a solid;
+    border-radius: 5px;
+    color: #28567a;
+    padding: 10px 35px;
+    transition: all .5s;
+}
+
+nav a:hover{
+    border: 2px #28567a solid;
+    background-color: #28567a;
+    color: white;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+.articulo article{
+    width: 580px;
+    margin-top: 40px;
+}
+
+.articulo article h1{
+    color: #cc9103;
+    font-size: 27px;
+}
+
+.articulo article h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.articulo article p{
+    margin-top: 20px;
+}
+
+.articulo article a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #28567a;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.articulo figure{
+    width: 500px;
+    border-radius: 10px;
+    border: 1px #333 solid;
+    padding: 10px;
+    /* display: none; */
+}
+
+.articulo figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+footer{
+    background-color: #28567a;
+    padding: 50px;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 20px;
+    color: white;
+}

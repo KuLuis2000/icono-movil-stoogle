@@ -1,0 +1,9 @@
+@media screen and (max-width: 375px){
+    header{
+        flex-direction: column;
+    }
+
+    .menu-sandwich{
+        margin-top: 20px;
+    }
+}
